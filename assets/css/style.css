@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{
+ul li{
     list-style-type: none;
+    margin: 5px 0px;
 }
 .center{
     width: max-content;
@@ -137,3 +138,39 @@ h1{
     border-radius: 20px;
 }
 /* Fine section 4 del main */
+
+/* Inizio footer */
+footer{
+    background-color: #23272A;
+    min-height: 400px;
+}
+footer section{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partegrandefooter{
+    width: calc((100% / 5) + 5%);
+}
+.partepiccolafooter{
+    width: calc(100%/5);
+    color: white;
+}
+.lilla{
+    color: #7087D6;
+}
+hr{
+    border-color: #3E4867;
+    width: 80%;
+    margin: auto;
+}
+#partefinalefooter{
+    width: 80%;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
