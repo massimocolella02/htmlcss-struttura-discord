@@ -11,7 +11,7 @@ ul{
     margin: 20px auto;
 }
 body{
-    width: 220vh;
+    width: 218.5vh;
     background-color: white;
 }
 header{
@@ -73,3 +73,67 @@ h1{
     margin: 0 10px;
 }
 /* Fine Header */
+
+/* Inizio Section 1 del main */
+.container{
+    width: 70%;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.partepiccola{
+    width: 30%;
+}
+/* Fine section 1 del main */
+
+/* Inizio Section 2 del main */
+.container{
+    width: 70%;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.grigio{
+    background-color: #F6F6F6;
+}
+/* Fine section 2 del main */
+
+/* Inizio Section 3 del main */
+.container{
+    width: 70%;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+/* Fine section 3 del main */
+
+/* Inizio Section 4 del main */
+.container-special{
+    width: 70%;
+    min-height: 580px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container-special > div, img, button{
+    margin-top: 20px;
+}
+.container-special button{
+    background-color: #8EA1E1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* Fine section 4 del main */
